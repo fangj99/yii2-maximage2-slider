@@ -1,0 +1,56 @@
+/* Other container */
+.contentContainer {
+	background:#333;
+	color:#fff;
+	font-family:sans-serif;
+	padding:20px;
+	margin-top:20px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	opacity:0.8;
+}
+
+/* Center my loader */
+#maximage {
+	display:none;
+}
+
+/*I want to style my pager*/
+#cycle-nav {
+	float:left;
+	margin-bottom:20px;
+}
+#cycle-nav ul {
+	list-style-type:none;
+}
+#cycle-nav ul li {
+	border:1px solid #ffffcc;
+	float:left;
+	margin:4px;
+	height:41px;
+}
+#cycle-nav ul li a {
+	float:left;
+	margin:2px;
+	width:50px;
+}
+#cycle-nav ul li.activeSlide {
+	border:1px solid #FF8000;
+}
+
+/* Overwrite Maximage's default background-size */
+div.mc-image {
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+/* Other random styles */
+#arrow_left, #arrow_right {text-decoration:none;}
+a {color:#000;}
+a:hover {text-decoration:none;}
+a:active {color:#999;}
+hr {clear:both;}
+p {margin-bottom:20px;}
+.largeTxt {font-size:30px;}
