@@ -24,7 +24,7 @@ class MaximageWidget extends \yii\base\Widget
         MaximageAsset::register($view);
         $script = '';
         $options =!empty($this->sliderOptions)?Json::encode($this->sliderOptions):'';
-        $script .= "$('$this->selector').pgwSlider($options);" . PHP_EOL;
+        $script .= "$('$this->selector').maximage($options);" . PHP_EOL;
         $view->registerJs($script);
     }
 }
