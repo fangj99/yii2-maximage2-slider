@@ -28,7 +28,7 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= echo \insolita\maximage2slider\MaximageWidget::widget([
+<?php echo \insolita\maximage2slider\MaximageWidget::widget([
             'selector'=>'#maximage',
             'sliderOptions'=>['backgroundSize'=>"contain",
                 'cycleOptions'=>[
